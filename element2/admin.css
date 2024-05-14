@@ -1,0 +1,292 @@
+body {
+	background-color: white;
+
+}
+
+.contact {
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.new-user-form {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+table {
+    padding: 38px;
+	margin: 1% auto;
+	border: 2px solid rgb(82, 171, 204);
+	border-radius: 8px;
+	width: 470px;
+}
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.styled-table th, .styled-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.styled-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+
+
+@media screen and (width: 100px) {
+	body {
+		color: white;
+	}
+}
+[class*="col-"] {
+	width: 100%;
+  }
+  
+
+.skip-link {
+	height: 1px;
+	top: auto;
+	position: absolute;
+	width: 1px;
+	left: -9999px;
+	display:contents;
+
+}
+
+
+label {
+	font-size: large;
+	color: rgb(43, 26, 174);
+}
+
+
+textarea {
+	font-size: large;
+	color: rgb(43, 26, 174);
+	font: 1em sans-serif;
+	text-overflow: clip;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+address {
+	font-size: large;
+	color: rgb(43, 26, 174);
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+main article {
+	padding: 20px;
+	border: 1px solid #999;
+}
+
+.price {
+	color: #181818;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.price1 {
+	color: #181818;
+	font-size: 1rem;
+	font-weight: 700;
+}
+.product-box h2 {
+	background-color: rgba(33, 0, 218, 0.692);
+	color: rgb(255, 255, 255);
+}
+
+article {
+	text-align: center;
+	border-radius: 15%;
+	border: 2px solid white;
+	background-color: #ececec;
+}
+.reviews{
+	text-align: center;
+	
+}
+article h2 {
+	font-size: 1em;
+	margin-top: 0%;
+}
+
+article h3 {
+	font-size: 16px;
+}
+
+article h4 {
+	font-size: 18px;
+}
+
+article h5 {
+	font-size: 16px;
+}
+
+article h6 {
+	font-size: 16px;
+}
+
+h2 {
+	color:#181818;
+}
+h3 {
+	color:black;
+}
+
+h1 {
+	color: rgb(0, 0, 0);
+}
+
+nav {
+	font-variant: normal;
+	font-size: 30px;
+	font-family: Arial, "Times New Roman", serif;
+}
+
+.protein3 {
+	max-width: 10px;
+}
+
+.logo {
+	display: block;
+	margin: 0px auto 0px auto;
+}
+
+.headBarText {
+	text-align: center;
+}
+
+section.p {
+	font-style: normal;
+}
+
+footer {
+	color: white;
+}
+
+.polaroid {
+
+	text-align: center;
+
+}
+
+/*a:visited {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	background-color: transparent;
+	text-decoration: underline;
+}
+*/
+.polaroid img {
+	width: 130px;
+	height: 145px;
+	margin-top: 20px;
+}
+
+.pages {
+	text-align: center;
+	scroll-behavior: auto;
+
+}
+
+p::before {
+	content: "Read this: ";
+}
+
+.pages li {
+	display: inline-block;
+	background-color: rgb(192, 206, 212);
+	;
+	color: aliceblue;
+	font-size: 22px;
+	text-align: center;
+	padding: 10px;
+}
+
+.pages li:hover {
+	background-color: rgb(95, 107, 129);
+	color: rgb(148, 106, 184);
+}
+
+.caption {
+	text-align: left;
+}
+
+address {
+	color: black;
+}
+
+
+footer {
+	background-color: rgb(63, 118, 200);
+
+}
+
+.product-box:hover {
+
+	box-shadow: 2px 6px 16px rgba(0, 0, 0, 0.05);
+
+}
+

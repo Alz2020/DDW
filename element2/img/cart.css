@@ -1,0 +1,79 @@
+/* Import Lato font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+/* Button Mix in */
+button {
+  color: white;
+  background: #F8931F;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, .2);
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: 0 5px 4px -4px black;
+  outline: none;
+}
+
+
+
+
+
+
+.intro {
+  font-size: em(20px);
+  margin: em(5px) em(20px);
+}
+  span {
+    color: #F8931F;
+  }
+
+
+p.description {
+  font-size: em(20px);
+  margin: em(20px) 0;
+}
+
+.togglebutton {
+  margin: em(8px) em(38px);
+}
+
+.list {
+  background: lighten(#F8931F, 15%);
+  padding: em(10px) em(25px);
+  max-width: 80%;
+  margin: em(30px) auto;
+  border-radius: .3em;
+  box-shadow: 5px 0 5px -5px black, -5px 0 5px -5px black;
+
+  @media (min-width: medium-screen) {
+    max-width: 60%;
+  }
+
+  @media (min-width: large-screen) {
+    max-width: 40%;
+  }
+}
+
+
+
+.togglebutton {
+  font-size: em(11px);
+  padding: em(15px) em(30px);
+  text-transform: uppercase;
+  border-radius: .3em;
+}
+
+ul {
+  text-align: center;
+  margin: em(10px) 0;
+}
+  li {
+    font-size: 20px;
+    margin: em(5px) 0;
+    padding: 10px 0;
+    display: block;
+  }
+
+
+input {
+  box-shadow: 0 5px 4px -4px black;
+}
